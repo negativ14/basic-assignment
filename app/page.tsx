@@ -38,7 +38,7 @@ const Page = () => {
     {
       number: "02",
       title: "AI Analyzes Instantly",
-      description: "SwasthAI uses advanced AI to understand and interpret symptoms accurately.",
+      description: "SalusAI uses advanced AI to understand and interpret symptoms accurately.",
     },
     {
       number: "03",
@@ -70,7 +70,7 @@ const Page = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Heart className="w-6 h-6 text-primary fill-primary" />
-            <span className="text-xl font-bold text-foreground">SwasthAI</span>
+            <span className="text-xl font-bold text-foreground">SalusAI</span>
           </div>
           <button className="px-6 py-2 bg-primary text-primary-foreground rounded-full font-medium hover:shadow-lg hover:shadow-green-200 transition-all duration-300">
             Start Chat
@@ -89,7 +89,7 @@ const Page = () => {
               .
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed text-balance">
-              SwasthAI is your personal health companion. Describe your symptoms and get safe, AI-powered advice in
+              SalusAI is your personal health companion. Describe your symptoms and get safe, AI-powered advice in
               seconds — anytime, anywhere.
             </p>
           </div>
@@ -110,7 +110,7 @@ const Page = () => {
         <div className="text-center space-y-6 bg-white rounded-2xl p-8 sm:p-12 shadow-sm border border-green-100">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Accessible Healthcare for Everyone</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Millions of people face delays in getting medical guidance. SwasthAI bridges that gap with an intelligent
+            Millions of people face delays in getting medical guidance. SalusAI bridges that gap with an intelligent
             assistant that listens, understands, and provides reliable health insights — instantly.
           </p>
         </div>
@@ -119,7 +119,7 @@ const Page = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="space-y-12">
           <div className="text-center space-y-3">
-            <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Why Choose SwasthAI?</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Why Choose SalusAI?</h2>
             <p className="text-muted-foreground text-lg">Everything you need for better health management</p>
           </div>
 
@@ -174,7 +174,7 @@ const Page = () => {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="space-y-8">
           <div className="text-center space-y-3">
-            <h2 className="text-3xl sm:text-4xl font-bold text-foreground">See SwasthAI in Action</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground">See SalusAI in Action</h2>
             <p className="text-muted-foreground text-lg">Real conversations, real results</p>
           </div>
 
@@ -218,7 +218,7 @@ const Page = () => {
           <div className="text-center space-y-4 max-w-2xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Our Vision for a Healthier India</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              SwasthAI empowers people with trusted health guidance — bridging the gap between knowledge and action.
+              SalusAI empowers people with trusted health guidance — bridging the gap between knowledge and action.
               From small towns to cities, we make health advice accessible to everyone.
             </p>
           </div>
@@ -241,10 +241,10 @@ const Page = () => {
         <div className="bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl p-12 text-center space-y-6 border border-primary/20">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Take Charge of Your Health Today</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Start your journey towards smarter, safer healthcare. SwasthAI — your digital health companion.
+            Start your journey towards smarter, safer healthcare. SalusAI — your digital health companion.
           </p>
           <button className="px-8 py-4 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-xl hover:shadow-green-300 transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">
-            Try SwasthAI Now
+            Try SalusAI Now
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>
@@ -253,9 +253,9 @@ const Page = () => {
       <footer className="border-t border-green-100 bg-white/50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center space-y-3">
-            <p className="font-semibold text-foreground">© 2025 SwasthAI. All rights reserved.</p>
+            <p className="font-semibold text-foreground">© 2025 SalusAI. All rights reserved.</p>
             <p className="text-sm text-muted-foreground leading-relaxed text-balance">
-              SwasthAI provides general guidance only. It is not a substitute for professional medical advice.
+              SalusAI provides general guidance only. It is not a substitute for professional medical advice.
             </p>
           </div>
         </div>
