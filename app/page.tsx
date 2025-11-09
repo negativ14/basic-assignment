@@ -5,7 +5,6 @@ import { ChevronRight, Heart, Globe, Brain, Lock, MessageCircle, ArrowRight } fr
 
 const Page = () => {
   const [activeDemo, setActiveDemo] = useState(0)
-  const [email, setEmail] = useState("")
 
   const features = [
     {
@@ -67,7 +66,6 @@ const Page = () => {
 
   return (
     <div className="w-full gradient-bg">
-      {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-green-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -80,7 +78,6 @@ const Page = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
         <div className="text-center space-y-8 animate-in fade-in duration-1000">
           <div className="space-y-4">
@@ -109,7 +106,6 @@ const Page = () => {
         </div>
       </section>
 
-      {/* About Section */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="text-center space-y-6 bg-white rounded-2xl p-8 sm:p-12 shadow-sm border border-green-100">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Accessible Healthcare for Everyone</h2>
@@ -120,7 +116,6 @@ const Page = () => {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="space-y-12">
           <div className="text-center space-y-3">
@@ -150,7 +145,6 @@ const Page = () => {
         </div>
       </section>
 
-      {/* How It Works Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="space-y-12">
           <div className="text-center space-y-3">
@@ -177,7 +171,6 @@ const Page = () => {
         </div>
       </section>
 
-      {/* Demo Section */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="space-y-8">
           <div className="text-center space-y-3">
@@ -220,7 +213,6 @@ const Page = () => {
         </div>
       </section>
 
-      {/* Impact Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="space-y-12">
           <div className="text-center space-y-4 max-w-2xl mx-auto">
@@ -245,7 +237,6 @@ const Page = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl p-12 text-center space-y-6 border border-primary/20">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Take Charge of Your Health Today</h2>
@@ -259,7 +250,6 @@ const Page = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="border-t border-green-100 bg-white/50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center space-y-3">

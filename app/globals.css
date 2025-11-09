@@ -4,7 +4,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated theme to modern green healthcare aesthetic */
   --background: oklch(0.98 0.01 142);
   --foreground: oklch(0.2 0.02 0);
   --card: oklch(1 0 0);
